@@ -1,0 +1,21 @@
+.top{
+  text-align: center;
+  font-size: 40px;
+  margin-top: 0;
+  font-stretch: expanded;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  font-family: 'Lobster', cursive;
+}
+.nav {
+  position: relative;
+  top: 20px;
+}
+.image{
+  margin-top: 160px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}

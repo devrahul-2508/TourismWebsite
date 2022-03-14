@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>
+        Contact Us
+    </title>
+    <style>
+        .details{
+           position: relative;
+           top: 0;
+           right: 0;
+           margin-top: 80px;
+           margin-left: 200px;
+           border: solid gray 1px;
+           background-color: white;
+           width: 25%;
+            height: 350px;
+            text-align: center;
+            
+    float: left;
+    padding: 20px;
+   
+        }
+        .bg{
+            position: absolute;
+            top: 0;
+        }
+        .head{
+            position: relative;
+            top: 0;
+            color: white;
+            font-size: 40px;
+        }
+        .dev{
+            position: relative;
+            top: 0;
+            margin-top: 100px;
+            margin-left: 100px;
+            width: 500px;
+            padding: 0 0 0 0;
+            
+    float: left;
+    padding: 20px;
+    
+        }
+        .container{
+            margin-top: 20px;
+            border: 3px solid #fff;
+            padding: 20px;
+        }
+
+        input[type=text]
+        {
+            width: 200px;
+      height: 25px;
+      font-size: medium;
+      margin-top: 30px;
+      margin-left: 10px;
+      border: none;
+      outline: 0;
+      border-bottom: 2px solid gray;
+           
+        }
+        p{
+            color: aliceblue;
+            font-size: 30px;
+        }
+        .textarea{
+            margin-top: 20px;
+        }
+        ::placeholder{
+             text-size-adjust: 40px;
+        }
+        .btn-grad {background-image: linear-gradient(to right, #DA22FF 0%, #9733EE  51%, #DA22FF  100%)}
+      .btn-grad {
+         margin: 10px;
+         margin-left: auto;
+         margin-top: 40px;
+         transform: translateX(-55%);
+         padding: 15px 45px;
+         text-align: center;
+         text-transform: uppercase;
+         transition: 0.5s;
+         background-size: 200% auto;
+         border: none;
+        
+         color: white;            
+         box-shadow: 0 0 20px #eee;
+         border-radius: 10%;
+         display: block;
+       }
+
+       .btn-grad:hover {
+         background-position: right center; /* change the direction of the change here */
+         color: #fff;
+         text-decoration: none;
+       }
+      
+    </style>
+
+</head>    
+    <link rel="stylesheet" href="css\styles.css">
+    <body>
+
+    <img src="dark-city.jpg" class="bg" alt="" width="100%" height="100%">
+    <h1 class="head"><center>Contact us</center></h1>
+        
+    
+   <div class="container"> 
+    <div class="dev">
+            <img src="circle-cropped.png" alt="">
+            <p>Name-Rahul Roy<br>Mob-8942910175<br>Email-rahulroy.rr2508@gmail.com</p>
+            
+
+        </div>
+  <div class="details">
+ <form action="mailto:rahulroy.rr2508@gmail.com" method="post" enctype="text/plain">
+
+  <h1>Send Message</h1>
+  <input type="text" placeholder="Your Name"><br>
+  <input type="text" placeholder="Your Email-id"><br>
+  <input type="text"  placeholder="Type Your Message Here:" name="" id=""><br>
+  <input type="submit" class="btn-grad">
+  </form>
+  </div>
+</div>
+</body>
+</html>
